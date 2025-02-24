@@ -1,6 +1,20 @@
-nginx
+#nginx
 #支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
+#k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
+#xhofe/alist:latest
 #支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+#--platform=linux/arm64 xiaoyaliu/alist
+
+#memos博客，golang编写
+neosmemo/memos:stable
+#gitea私有代码仓库管理
+docker.io/gitea/gitea:1.22.6-rootless
+#drone编译持续集
+drone/drone:latest
+drone/drone-runner-docker:latest
+#caddy仿nigux
+--platform=linux/arm64 caddy:latest
+#低代码平台
+index.docker.io/appsmith/appsmith-ee
+
+
