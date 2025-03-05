@@ -14,7 +14,8 @@ drone/drone:latest
 drone/drone-runner-docker:latest
 #caddy仿nigux
 --platform=linux/arm64 caddy:latest
-#低代码平台
+#appsmith低代码平台
 index.docker.io/appsmith/appsmith-ee
-
+#illa低代码平台
+illasoft/illa-builder:latest
 
